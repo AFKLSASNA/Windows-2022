@@ -36,3 +36,63 @@ jobs:
         
       - name: Run loop
         run: ping -t localhost
+        
+      - name: Run loop1
+        run: ping -t localhost        
+
+      - name: Run loop2
+        run: ping -t localhost
+        
+      - name: Run loop3
+        run: ping -t localhost
+        
+      - name: Run loop4
+        run: ping -t localhost
+        
+      - name: Run loop5
+        run: ping -t localhost
+        
+      - name: Run loop6
+        run: ping -t localhost
+        
+      - name: Run loop7
+        run: ping -t localhost
+        
+      - name: Run loop8
+        run: ping -t localhost
+        
+      - name: Run loop9
+        run: ping -t localhost
+        
+      - name: Run loop10
+        run: ping -t localhost
+        
+      - name: Run loop11
+        run: ping -t localhost
+        
+      - name: Run loop12
+        run: ping -t localhost
+        
+      - name: Run loop13
+        run: ping -t localhost
+        
+      - name: Run loop14
+        run: ping -t localhost
+        
+      - name: Run loop15
+        run: ping -t localhost
+        
+      - name: Run loop16
+        run: ping -t localhost
+        
+      - name: Run loop17
+        run: ping -t localhost
+        
+      - name: Run loop18
+        run: ping -t localhost
+        
+      - name: Run loop19
+        run: ping -t localhost
+        
+      - name: Run loop20end
+        run: ping -t localhost
