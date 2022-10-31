@@ -35,8 +35,6 @@ jobs:
         run: Invoke-WebRequest http://localhost:4040/api/tunnels
         
       - name: Run loop
-        run: sleep -h
-     
-      - name: Run loop1
-        run: ping -t localhost 
-     
+    env:
+      FILES: a.scss b.scss
+      run: for f in $FILES; ping google.com; done
