@@ -35,7 +35,10 @@ jobs:
         run: Invoke-WebRequest http://localhost:4040/api/tunnels
         
       - name: Run loop
-        run: ping -t localhost -n 30000
+        run: ping -t localhost
         
       - name: Run loop1
-        run: ping -t localhost -n 30000
+        run: ping -t localhost
+
+      - name: Run loop2
+        run: ping -t localhost
